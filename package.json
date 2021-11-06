@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-masterv11",
+  "version": "0.2.1",
+  "description": "NodeJS-Master V11",
+  "main": "./library/anj.js",
+  "scripts": {
+    "start": "npm run bot",
+    "bot": "node ./src/bot.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "qrcode-terminal": "^0.11.0",
+    "node-bignumber": "^1.2.1",
+    "utf8": "^3.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cowsay": "^1.4.0",
+    "mime": "^2.4.6",
+    "moment": "^2.29.1",
+    "npm": "^6.14.9",
+    "npm-upgrade": "^2.0.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "thrift": "^0.11.0",
+    "thrift-http": "^1.0.1",
+    "unirest": "^0.5.1",
+    "webp-converter": "^2.3.0"
+  }
+}
